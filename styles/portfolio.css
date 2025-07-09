@@ -1,0 +1,43 @@
+/* hero section */
+/* File: styles/portfolio.css */
+
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 50px auto;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 2; /* Show above overlay */
+}
+
+.header h4 {
+    font-size: 32px;
+    /* margin-bottom: 10px; */
+}
+.header h1 {
+    font-size: 72px;
+    /* margin-bottom: 10px; */
+}
+
+/* Overlay with linear gradient */
+.hero-image {
+  position: relative;
+  width: 70%;
+  height: 600px;
+  margin: 0 auto; /* Center horizontally */
+  background: 
+    linear-gradient(rgba(7, 2, 17, 1.0), rgba(7, 2, 17, 0)),
+    url('../images/hero.png') center/cover no-repeat;
+    border-radius: 16px;
+    
+}
+
+/* hero section ended*/
