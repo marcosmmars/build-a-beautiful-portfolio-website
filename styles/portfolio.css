@@ -149,7 +149,7 @@
     align-items: center;
     margin: 100px auto;
     position: relative;
-    width: 70%;
+    max-width: 70%;
     height: 600px;
     margin: 0 auto; /* Center horizontally */
     background: 
@@ -165,3 +165,53 @@
 .section-midnight-party .mp-second {
     margin-right: 138px;
 }
+
+
+/* midnight party section ended */
+
+
+/* join us section started */
+
+.jtext {
+  text-align: center;
+  color: rgb(61, 53, 53);
+  margin: 100px auto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.jred {
+  font-size: 32px;
+  font-weight: 600;
+  color: #FF0000;
+  margin-bottom: 40px;
+}
+
+.join-now button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #FF0000;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.section-join-now {
+  text-align: center;
+  margin: 120px auto;
+  background: linear-gradient(to bottom, #ffcccc, #ffffff);
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 16px;
+  width: 70%;
+  height: 382px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* join now section ended  */
+
