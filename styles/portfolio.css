@@ -304,3 +304,61 @@
   padding: 30px;
   
 }
+
+/* coming soon section ended */
+
+/* discount section started  */
+
+
+
+.section-functional {
+  text-align: center;
+}
+
+.section-functional h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+  margin-bottom: 10px;
+}
+.section-functional h2 {
+  font-size: 72px;
+  font-weight: 900;
+  color: #070211;
+  margin-bottom: 26px;
+  margin-top: 16px;
+}
+
+.holidays {
+  font-size: 72px;
+  font-weight: 900;
+  color: #FF0000;
+}
+
+.section-functional p {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 60px;
+}
+
+.fifty-discount {
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 170px;
+  background-image: url('../images/ground.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+
+.fifty-discount-image {
+  align-items: top;
+  padding-bottom: 300px;
+  padding-left: 80px;
+}
+
+
+/* discount section ended  */
+
+
